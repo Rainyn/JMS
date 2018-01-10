@@ -20,7 +20,6 @@ public class JMSConsumer {
 	private static final String USERNAME = ActiveMQConnection.DEFAULT_USER;
 	private static final String PASSWORD = ActiveMQConnection.DEFAULT_PASSWORD;
 	private static final String BROKEURL = ActiveMQConnection.DEFAULT_BROKER_URL;//默认连接地址
-	private static final int SENDNUM = 10;//发送的消息数量
 	public static void main(String[] args) {
 		
 		ConnectionFactory  connectionFactory;//连接工厂
